@@ -19,7 +19,7 @@ margin-bottom: 40px;
 header h1 {
     text-align: center;
     color: white;
-    font-size: 42px;
+    font-size: 40px;
 }
 
 header h2 {
@@ -83,8 +83,9 @@ main img {
 }
 
 .home-grid p {
-    margin: 5%;
-    text-shadow: 10px 10px 20px rgba(22, 31, 75, 0.774);
+    margin: 25px;
+    font-size: 1rem;
+    color: #221f1f;
 }
 
 footer {
