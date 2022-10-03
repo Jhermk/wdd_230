@@ -1,0 +1,61 @@
+@media(max-width: 38.5rem) {
+
+    body {
+        max-width: 470px;
+        width: 32.5rem;
+        background-color: #9b89b3;
+    }
+
+    header {
+        background-color: transparent;
+    }
+
+    .header h1 {
+        width: 250px;
+        font-size: 22px;
+        margin: 40px;
+    }
+
+    .header {
+        margin-left: -20px;
+        width: 420px;
+    }
+
+    .header img {
+        max-width: 100%;
+        width: 100px;
+        margin-right: 120px;
+    }
+
+    header h1 {
+        margin: 12px;
+    }
+
+    main,
+    footer,
+    nav {
+        margin-left: -9px;
+        width: 420px;
+    }
+
+    nav {
+        background-color: #3f2c2c8f;
+        margin-left: -20px;
+    }
+
+    main img {
+        max-width: 140px;
+    }
+
+    section {
+        display: block;
+    }
+
+    footer {
+        margin-top: 8px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50px;
+    }
+
+
+}

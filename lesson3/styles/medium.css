@@ -1,0 +1,50 @@
+@media(max-width: 64em) {
+    header {
+        padding: 10px;
+        background-color: #3f2c2c;
+    }
+
+    .header img {
+        width: 90px;
+        margin-top: 30px;
+    }
+
+
+    .header h1 {
+        width: 300px;
+    }
+
+    body {
+        max-width: 600px;
+        width: 64rem;
+    }
+
+    nav ul {
+        display: inline-block;
+    }
+
+    nav ul li.btn {
+        padding-top: 10px;
+    }
+
+    nav {
+        background-color: transparent;
+        margin: 10px -10px;
+    }
+
+    main img {
+        width: 180px;
+    }
+
+    section {
+        display: block;
+    }
+
+    section .primary,
+    .secondary,
+    .background,
+    .accent {
+        margin: 0 70px;
+    }
+
+}

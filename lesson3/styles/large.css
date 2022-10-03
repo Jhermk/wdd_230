@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5%;
+    width: 968px;
+    margin: 0 auto;
+    background-color: #9b89b3;
+}
+
+header {
+    padding: 10px;
+    background-color: #3f2c2c;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: #3f2c2c8f;
+    color: #fff;
+    padding: 10px 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header img {
+    max-width: 140px;
+    box-shadow: 4px 3px 3px #CCC;
+}
+
+nav {
+    background-color: #845ec2;
+    margin: 30px 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li.btn a {
+    color: #fff;
+    margin: 0 30px;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+nav ul li.btn:hover a {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+    color: black;
+    border-radius: 4px;
+}
+
+
+/*  */
+main {
+    background-color: #3f2c2c8f;
+    color: #e0cdcd;
+    padding: 10px 35px;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+}
+
+main .link {
+    color: rgb(36, 9, 9);
+    font-size: 20px;
+}
+
+main h3 {
+    color: #fff;
+}
+
+
+section {
+    display: inline-flex;
+    align-items: center;
+}
+
+section .primary,
+.secondary,
+.background,
+.accent {
+    background-color: #845ec2;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 50%;
+    color: #000;
+}
+
+
+.secondary {
+    background-color: #9b89b3;
+}
+
+.background {
+    background-color: #fef6ff;
+}
+
+.accent {
+    background-color: #fefedf;
+}
+
+/* footer */
+footer {
+    padding: 14px;
+    margin: 10px 0;
+    background-color: #3f2c2c8f;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    font-size: calc(2vmin) + 10px;
+
+}
