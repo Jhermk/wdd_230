@@ -1,0 +1,44 @@
+@media(max-width: 38.5rem) {
+
+    body {
+        max-width: 470px;
+        padding: 40px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+
+    .header {
+        margin-left: -20px;
+        width: 420px;
+        background-color: transparent;
+    }
+
+    .header h1 {
+        margin: 2px 22px;
+    }
+
+
+    nav {
+        margin-left: -40px;
+        margin-top: -10px;
+    }
+
+    main img {
+        max-width: 140px;
+    }
+
+    section {
+        display: block;
+    }
+
+    footer {
+        margin-top: 8px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50px;
+    }
+
+
+}
