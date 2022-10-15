@@ -1,17 +1,18 @@
 @media(max-width: 64em) {
-    header {
+
+    header,
+    footer {
         padding: 10px;
-        background-color: #3f2c2c;
+        border: 10px double #fff;
     }
 
     .header img {
-        width: 90px;
-        margin-top: 30px;
+        width: 140px;
     }
 
 
     .header h1 {
-        width: 300px;
+        font-size: 27px;
     }
 
     body {
@@ -29,11 +30,11 @@
 
     nav {
         background-color: transparent;
-        margin: 10px -10px;
+        margin: 10px -30px;
     }
 
     main img {
-        width: 180px;
+        width: 150px;
     }
 
     section {

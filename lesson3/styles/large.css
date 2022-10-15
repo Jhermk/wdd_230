@@ -6,33 +6,37 @@ body {
     padding: 5%;
     width: 968px;
     margin: 0 auto;
-    background-color: #9b89b3;
+    background-color: #fef6ff;
+    max-width: 75rem;
 }
 
 header {
     padding: 10px;
-    background-color: #3f2c2c;
+    background-color: #050113;
     font-family: 'poppins', sans-serif;
+    border: 10px solid rgb(255, 255, 255);
+    border: 10px double #fff;
 }
 
 .header {
     display: flex;
     justify-items: center;
     justify-content: space-between;
-    background-color: #3f2c2c8f;
+    background-color: #000;
     color: #fff;
     padding: 10px 35px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 4px;
+}
+header h1{
+    margin: 0 50px;
 }
 
 .header img {
-    max-width: 140px;
-    box-shadow: 4px 3px 3px #CCC;
+    width: 140px;
 }
 
 nav {
-    background-color: #845ec2;
+    background-color: #000;
     margin: 30px 0;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -43,81 +47,104 @@ nav ul {
     display: flex;
     list-style: none;
     padding: 10px;
+    margin: 0 5%;
 }
 
 nav ul li.btn a {
     color: #fff;
     margin: 0 30px;
     text-decoration: none;
-    padding: 5px 0;
 }
-
-nav ul li.btn:hover a {
-    background-color: rgb(255, 255, 255);
-    transition: 0.3s ease-in-out;
-    color: black;
-    border-radius: 4px;
-}
-
 
 /*  */
 main {
-    background-color: #3f2c2c8f;
-    color: #e0cdcd;
+    background-color: #000;
+    color: #fff;
     padding: 10px 35px;
     text-align: center;
     font-family: 'roboto', sans-serif;
     font-size: 18px;
+    
+    
 }
 
 main .link {
     color: rgb(36, 9, 9);
     font-size: 20px;
+    
+}
+
+main{
+    border: 10px double #fff;
 }
 
 main h3 {
     color: #fff;
 }
 
+main img{
+    border-radius: 50%;
+}
+
+
 section {
     display: inline-flex;
     align-items: center;
+    
+}
+.primary {
+    box-shadow: 4px 4px 4px #fef6ff;
+}
+.secondary {
+    box-shadow: 4px 4px 4px ;
+}
+.accent{
+    box-shadow: 4px 4px 4px #050113;
+}
+.background {
+    box-shadow: 4px 4px 4px #9b89b3;
 }
 
 section .primary,
 .secondary,
 .background,
 .accent {
-    background-color: #845ec2;
-    padding: 10px;
+    background-color: #fef6ff;
     margin: 0 20px;
     border-radius: 50%;
     color: #000;
+    padding: 9px;
+    font-size: 16px;
 }
 
 
 .secondary {
-    background-color: #9b89b3;
+    background-color: #000;
+    color: #fff;
+
 }
 
 .background {
-    background-color: #fef6ff;
+    background-color: #c7c7c7;
 }
 
 .accent {
-    background-color: #fefedf;
+    background-color: #050113;
+    color: #fff;
 }
 
 /* footer */
+
 footer {
     padding: 14px;
-    margin: 10px 0;
-    background-color: #3f2c2c8f;
+    margin: 0;
+    background-color: #000;
     color: #fff;
     font-family: 'poppins', sans-serif;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     text-align: center;
     font-size: calc(3vmin);
-
+    border: 10px double #fff;
+    
 }
