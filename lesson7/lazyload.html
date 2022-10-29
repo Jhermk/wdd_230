@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lazy Loading images with IntersectionObserver in JS">
+  <meta name="author" content="Hermann F. J Koffi">
+  <title>Lazy Loading Images| Progressive Images Loading</title>
+  <link rel="stylesheet" href="/lesson7/styles/lazyload.css">
+</head>
+<body>
+  <header>
+    <h1>Lazy Loading Image</h1>
+  </header>
+  <main>
+    <picture>
+      <img class="resize" src="https://placehold.co/400"
+        data-src="https://images.unsplash.com/photo-1666632221950-3fb777d5de7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfEpwZzZLaWRsLUhrfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        alt="Elephants eating herbs">
+      <img class="resize" src="https://placehold.co/400"
+        data-src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+        alt="Wolf standing in snow">
+      <img class="resize" src="https://placehold.co/400"
+        data-src="https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YW5pbWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        alt="Tiger">
+      <img class="resize" src="https://placehold.co/400"
+        data-src="https://images.unsplash.com/photo-1475809913362-28a064062ccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFuaW1hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="Butterfly">
+      <img class="resize" src="https://placehold.co/400"
+        data-src="https://images.unsplash.com/photo-1501706362039-c06b2d715385?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8emVicmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        alt="Zebra">
+    </picture>
+  </main>
+
+  <footer>
+    <p>&copy; 2022 | Hermann F. J Koffi | WDD 230</p> <br>
+    <small>Last updated: <span id="currentdate2"></span> </small>
+  </footer>
+  <script src="/lesson7/scripts/lazyload.js"></script>
+</body>
+
+</html>

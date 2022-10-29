@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  width: 400px;
+  margin: 40px auto;
+  background-color: #f5f3f3;
+}
+
+main {
+  background-color: #000;
+}
+
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  background-color: black;
+  color: #fff;
+}
+
+header h1 {
+  text-align: center;
+}
+
+picture {
+  margin: 10px 0;
+  display: block;
+
+}
+
+picture .resize[data-src] {
+  filter: blur(0.2em);
+}
+
+picture .resize {
+  filter: blur(0em);
+  transition: filter 0.5s ease-in-out;
+}
+
+.resize {
+  width: 400px;
+  height: 40vh;
+}
+
+footer{
+  background-color: #000;
+  color: #f5f3f3;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
