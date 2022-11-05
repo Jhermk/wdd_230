@@ -26,6 +26,15 @@ main {
 	width: 95%;
 }
 
+main label input:required{
+    border-left: red solid 6px;
+}
+
+main label input:required:valid{
+    border-left: green solid 6px;
+}
+
+
 input,
 button {
 	padding: 0.4rem;

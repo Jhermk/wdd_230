@@ -1,25 +1,33 @@
-//
-const favChap = document.querySelector("#favchap");
-const  addBtn = document.querySelector("#add-btn");
-const chapList = document.querySelector("#list");
+// Use the const keyword to create three variables that store references to the input, button, and list components.
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+const list = document.querySelector("ul");
 
-addBtn.addEventListener("click", function(){
-    if (favChap.value !== "") {
-    const newElement = document.createElement('li');
-    const newXBtn = document.createElement('button');
+// Using addEventListener and an anonymous function, create a click event listener for the Add Chapter button..
+button.addEventListener("click", () => {
+  // Make sure the input is not blank with the if condition in the function block for adding a chapter, and if it is, do the following action:
+  if (!(input.value == "")) {
+    //  Create the li and button components. In order to add the text to the li element, I inserted a span element.
+    const listItem = document.createElement("li");
+    const listText = document.createElement("span");
+    const deleteButton = document.createElement("button");
 
-    newElement.textContent = favChap.value;
-    newXBtn.textContent = "\u274C";
+    // Appending elements to li.
+    listText.innerHTML = input.value;
+    listItem.appendChild(listText);
+    deleteButton.textContent = "❌";
+    listItem.appendChild(deleteButton);
 
-    newElement.appendChild(newXBtn);
-    chapList.appendChild(newElement);
+    // Append li to ul.
+    list.appendChild(listItem);
 
-    favChap.value = "";
-    favChap.focus();
-
-    newXBtn.addEventListener("click", function(){
-        chapList.removeChild(newElement);
-        favChap.focus();
+    // Make a delete button event listener to remove the li from the listItem.
+    deleteButton.addEventListener("click", () => {
+      list.removeChild(listItem);
     });
-    };
+
+    // Focus and clear input.
+    input.focus();
+    input.value = "";
+  }
 });
