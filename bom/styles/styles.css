@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	height: 100vh;
 	display: flex;
@@ -26,12 +27,12 @@ main {
 	width: 95%;
 }
 
-main label input:required{
-    border-left: red solid 6px;
+main label input:required {
+	border-left: red solid 6px;
 }
 
-main label input:required:valid{
-    border-left: green solid 6px;
+main label input:required:valid {
+	border-left: green solid 6px;
 }
 
 
@@ -49,6 +50,7 @@ input {
 label {
 	font-size: 0.9rem;
 }
+
 .listcontainer {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin: 1rem;
