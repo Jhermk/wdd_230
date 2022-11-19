@@ -35,3 +35,20 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
   classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
   */
+
+
+// Javascript Event coming date
+  let weekday = new Array(7)
+
+  weekday[0] = "Sunday"
+  weekday[1] = "Monday"
+  weekday[2] = "Tuesday"
+  weekday[3] = "Wednesday"
+  weekday[4] = "Thursday"
+  weekday[5] = "Friday"
+  weekday[6] = "Saturday"
+
+  let currentDate = new Date()
+  weekdayValue = currentDate.getDay()
+
+
