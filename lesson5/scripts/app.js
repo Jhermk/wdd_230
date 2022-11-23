@@ -37,18 +37,15 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
   */
 
 
-// Javascript Event coming date
-  let weekday = new Array(7)
+// Displaying events on top of the page
+  let date = new Date(Date.UTC(2022, 11, 20, 7, 00));
+  // Results below assume UTC timezone - your results may vary
+  
+  // Specify date and time format using "style" options (i.e. full, long, medium, short)
+  console.log(new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'long' }).format(date));
 
-  weekday[0] = "Sunday"
-  weekday[1] = "Monday"
-  weekday[2] = "Tuesday"
-  weekday[3] = "Wednesday"
-  weekday[4] = "Thursday"
-  weekday[5] = "Friday"
-  weekday[6] = "Saturday"
+  // Expected output "Sunday, 20 December 2020 at 14:23:16 GMT+11"
 
-  let currentDate = new Date()
-  weekdayValue = currentDate.getDay()
+  document.getElementById('events').textContent = ' Come join us for the chamber meet and greet '+ date;
 
-
+ 
