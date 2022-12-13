@@ -8,7 +8,7 @@
 .banner {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(222, 223, 226, 0.5), rgba(4, 5, 4, 0.5)), url('/images/building.jpg');
+    background-image: linear-gradient(rgba(222, 223, 226, 0.5), rgba(4, 5, 4, 0.5)), url('/wdd_230/chamber/images/building.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
