@@ -1,80 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Hermann Koffi Frederic J. K">
-    <meta name="description" content="Chamber build structure and layout Low fidelity wireframe WDD230 Hermann_Koffi Hill chamber of commerce">
-    <title>Chamber Home Page Build</title>
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="stylesheet" href="/wdd_230/chamber/styles/normalise.css">
-    <link rel="stylesheet" href="/wdd_230/chamber/styles/large.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/wdd_230/chamber/images/favicon.png">
+    <meta name="description" content="Hill Chamber of Commerce homepage WDD230">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/base.css">
     <link rel="stylesheet" href="/wdd_230/chamber/styles/medium.css">
-    <link rel="stylesheet" href="/wdd_230/chamber/styles/small.css">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/large.css">
+    <script defer src="/wdd_230/chamber/scripts/main.js"></script>
+    <script defer src="/wdd_230/chamber/scripts.js"></script>
+    <script defer src="/wdd_230/chamber/scripts/weather.js"></script>
+    <title>Hill Chamber of Commerce</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/wdd_230/chamber/images/logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Open+Sans:wght@500&family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="header">
-            <div class="logo">
-                <img src="/wdd_230/lesson3/images/logo.png" alt="Website logo">
-                <h1>#1 World Best Chamber</h1>
-            </div>
-            <nav>
-                <ul class="navigation">
-                    <li><a class="ham" href="#"><img src="https://cdn-icons-png.flaticon.com/512/4889/4889159.png" width="60" alt="Menu icon"></a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">JOIN</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href=""><img class="width2" src="/wdd_230/chamber/images/facebook.svg" alt="facebook icon"></a></li>
-                    <li><a href=""><img class="width1" src="/wdd_230/chamber/images/twitter.svg" alt="twitter icon"></a></li>
-                </ul>
-            </nav>
-           
-        </div>
-        <div class="date"></div>
-        <!-- <aside></aside> European format date--> 
-    </header>
 
-    <main>
-        <div class="grid">
-            <div class="grid-column-1">placeholder 1</div>
-            <div class="grid-column-2">placeholder 2</div>
-            <div class="grid-column-3">placeholder 3</div>
-            <div class="grid-column-4">placeholder 4</div>
-            <div class="grid-column-5">placeholder 5</div>
-            <div class="grid-column-6">placeholder 6</div>
-            <div class="grid-column-7">placeholder 7</div>
-            <div class="grid-column-8">placeholder 8</div>
+<body>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>
+            <button type="button" class="banner-button"><img src="images/close_FILL0_wght400_GRAD0_opsz48.png"
+                    alt="Close Button"></button>
+        </div>
+    </div>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Hill Logo"></a>
+        </div>
+        <a href="#" id="hamburger">&#9776;</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/wdd_230/chamber/discover.html">Discover</a></li>
+                <li><a href="/wdd_230/chamber/directory.html">Directory</a></li>
+                <li><a href="/wdd_230/chamber/join.html">Join</a></li>
+                <li><a href="/wdd_230/chamber/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="#"><img src="/wdd_230/chamber/images/facebook.svg" alt="Facebook Logo"></a>
+            <a href="#"><img src="/wdd_230/chamber/images/instagram.png" alt="Instagram Logo "></a>
+            <a href="#"><img src="/wdd_230/chamber/images/twitter.svg" alt="Twitter Logo"></a>
+        </div>
+
+    </header>
+    <section class="date"></section>
+    <main class="home">
+        <div id="hero">
+            <figure>
+                <img src="/wdd_230/chamber/images/large.webp" sizes="40vw" alt="banner" srcset="
+                /wdd_230/chamber/images/large.webp 800w,
+                /wdd_230/chamber/images/medium.webp 500w,
+                /wdd_230/chamber/images/small.webp 200w,
+                ">
+
+            </figure>
+            <section class="stats">
+                <h2>#1 World Best Chamber</h2>
+                <a href="/wdd_230/chamber/join.html">Join Us Now</a>
+            </section>
+        </div>
+        <div id="event">
+            <h2>Coming Event</h2>
+            <hr>
+            <p>December 20, 2023: Community Shield</p>
+            <p>April 18, 2023: Opened Door</p>
+            <p>March 15, 2023: International meeting</p>
+            <p>May 28, 2023: President Visit</p>
+        </div>
+        <div id="weather">
+            <h2>Weather</h2>
+            <div id="weather_top">
+                <h2><span id="temp"></span>&#8457;</h2>
+                <figure><img src="#" alt="Placeholder" id="weathericon" />
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <hr>
+            <p>Wind: <span id="wind"></span> MPH</p>
+            <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
+        </div>
+        <div id="news">
+            <h2>News</h2>
+            <p>The Hill Chamber of Commerce's membership news page informs community members on recent government and
+                community events, updates, and news.</p>
+            <p>As a winter storm rolls in from the Pacific Northwest, forecasters warn about high winds and possible
+                flooding.
+                Rain, winds to wallop parts of Southern California</p>
+
+        </div>
+        <div id="join">
+            <h2>Join Us</h2>
+            <p>Become part of our worldwide community</p>
+            <a href="/WDD230/chamber/join.html"><button>Join Us</button></a>
+            <p>"We are here for business, build network and move together as a family"</p>
+        </div>
+        <div id="spotlights">
+            <div id="spot1">
+                <h2>Join Our Community Now</h2>
+                <span>Count over 2000000 of new commers every year. Membership over 7000000</span>
+            </div>
+            <div id="spot2">
+                <h2>Our Headquarters</h2>
+                <p>San Francisco | Location:Bear Valley California</p>
+                <p>Telephone Number: 209-753-9112</p>
+                <p>Mobile Number: 510-358-5804</p>
+            </div>
+            <div id="spot3">
+                <h2>Considering Joining Us</h2>
+                <p>Discuss with our members and agents</p>
+                <a href="">Call an agent</a>
+                <a href="">Talk to a member</a>
+
+            </div>
         </div>
     </main>
+
     <footer>
-          <div class="footer">
-            <div class="column1">
-                <img src="/wdd_230/lesson3/images/logo.png" alt="Website logo">
-                <h1>#1 World Best Chamber</h1>
+        <div id="about">
+            <img src="/wdd_230/chamber/images/logo.png" alt="Hill Logo">
+            <div id="address">
+                <h3>Visit Us</h3>
+                <p>10 Pike Street</p>
+                <p>Los Angeles, New Avenue 911</p>
             </div>
-            <div class="column2">
-                <h3>HILL CHAMBER HILL</h3>
-                <p>10 Street New Avenue L.A</p>
-                <small>United States, America</small>    
-            </div>
-            <div class="column3">
+            <div id="contact">
+                <h3>Contact Us</h3>
                 <p>Hill_Chamber96@foundation.com</p>
                 <p>+1 450-5677-XX7</p>
             </div>
-          </div>
-        
-            <p>&copy; 2022 | Hermann F. J Koffi WDD230 | Abidjan</p> <br>
-            <small>Last updated: <span id="currentdate2"></span> </small>
-
+        </div>
+        <div id="copyright">
+            <p>&copy; <span id="copyrightYear"></span> HILL Chamber of Commerce | Hermann Koffi | WDD230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
     </footer>
-    
-<script src="/wdd_230/chamber/scripts/app.js"></script>   
 </body>
+
 </html>

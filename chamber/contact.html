@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/wdd_230/chamber/images/favicon.png">
+    <meta name="description" content="Hill Chamber of Commerce site for WDD230">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/base.css">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/medium.css">
+    <link rel="stylesheet" href="/wdd_230/chamber/styles/large.css">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/visits.js"></script>
+    <title>Hill Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Open+Sans:wght@500&family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="/wdd_230/chamber/index.html"><img src="/wdd_230/chamber/images/logo.png" alt="Hill Logo"></a>
+        </div>
+        <a href="#" id="hamburger">&#9776;</a>
+        <nav>
+            <ul>
+                <li><a href="/wdd_230/chamber/index.html">Home</a></li>
+                <li><a href="/wdd_230/chamber/discover.html">Discover</a></li>
+                <li><a href="/wdd_230/chamber/directory.html">Directory</a></li>
+                <li><a href="/wdd_230/chamber/join.html">Join</a></li>
+                <li><a href="/wdd_230/chamber/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="#"><img src="/wdd_230/chamber/images/facebook.svg" alt="Facebook Logo"></a>
+            <a href="#"><img src="/wdd_230/chamber/images/instagram.png" alt="Instagram Logo "></a>
+            <a href="#"><img src="/wdd_230/chamber/images/twitter.svg" alt="Twitter Logo"></a>
+        </div>
+
+    </header>
+
+    <section class="date"></section>
+
+    <main class="contact">
+        <div class="form">
+            <h1>Contact Us</h1>
+            <form action="/wdd_230/chamber/rate_course.html" method="GET" autocomplete="on">
+                <label for="name">
+                    Name
+                    <input type="text" id="name" name="name" required>
+                </label>
+
+                <label for="email">
+                    Email
+                    <input type="email" id="email" name="email" required>
+                </label>
+
+                <label for="message">
+                    Message
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </label>
+
+
+                <input type="submit" id="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <div class="board">
+            <div>
+                <h2>Boris Becker</h2>
+                <p>President</p>
+                <p>123-456-228</p>
+                <p>beckerboris@gmail.com</p>
+            </div>
+            <div>
+                <h2>Julia smith</h2>
+                <p>Vice President</p>
+                <p>123-456-228</p>
+                <p>julianasmith@gmail.com</p>
+            </div>
+            <div>
+                <h2>De La Cruz Maria</h2>
+                <p>Counselor</p>
+                <p>121-290-9022</p>
+                <p>mariadelacruz@gmail.com</p>
+            </div>
+            <div>
+                <h2>John Smith</h2>
+                <p>Counselor</p>
+                <p>221-190-1022</p>
+                <p>josmith@gmail.com</p>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="about">
+            <img src="images/logo.png" alt="Hill Logo">
+            <div id="address">
+                <h3>Visit Us</h3>
+                <p>10 Pike Street</p>
+                <p>Los Angeles, New Avenue 911</p>
+            </div>
+            <div id="contact">
+                <h3>Contact Us</h3>
+                <p>Hill_Chamber96@foundation.com</p>
+                <p>+1 450-5677-XX7</p>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; <span id="copyrightYear"></span> HILL Chamber of Commerce | Hermann Koffi | WDD230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+            <p><span id="lastVisited"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

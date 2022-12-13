@@ -124,10 +124,6 @@ main{
    
 }
 .grid-column-1{
-    background-image: linear-gradient(rgba(10, 2, 12, 0.377),rgba(2, 3, 24, 0.466)), url(/wdd_230/lesson5/images/building.jpg);
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 5px;
     grid-column: 2/4;
     grid-row: 1/3;
