@@ -1,0 +1,15 @@
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 968px;
+}
+
+header h1, p{
+    background-color: rgb(5, 5, 24);
+    color: #fff;
+}
+
